@@ -88,7 +88,6 @@ fi = (function() {
         let items = JSON.stringify(arr).replace(/[\[\]]/g,'')
         return JSON.parse(`[${items}]`)
       }
-      // return myNewArray = [].concat.apply([], myArray
     },
 
     uniq: function(arr, isSorted, callback) {
